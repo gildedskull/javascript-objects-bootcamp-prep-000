@@ -3,6 +3,6 @@ const playlist = {
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  return Object.assign({}, playlist,{artist: title})
+  return Object.assign({}, playlist,{artistName: songTitle})
   }
 
